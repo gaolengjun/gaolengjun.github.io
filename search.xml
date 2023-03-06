@@ -4,11 +4,32 @@
   
     
     <entry>
+      <title>hexo博客搭建踩坑系列</title>
+      <link href="/2023/03/06/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%B8%A9%E5%9D%91%E7%B3%BB%E5%88%97/"/>
+      <url>/2023/03/06/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%B8%A9%E5%9D%91%E7%B3%BB%E5%88%97/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ol><li>文章底部链接点开404<br><a href="https://imgse.com/i/ppZk34K"><img src="https://s1.ax1x.com/2023/03/06/ppZk34K.md.jpg" alt="ppZk34K.md.jpg"></a><blockquote><p>这个坑我踩了很久，百度了很多文档都无效。事实上，当你在本地启动博客时，点击底部链接是无效的，部署上线后点击才会生效</p></blockquote></li><li>butterfly主题中开启了404，启动博客后仍然无效<br><a href="https://imgse.com/i/ppZkWbn"><img src="https://s1.ax1x.com/2023/03/06/ppZkWbn.jpg" alt="ppZkWbn.jpg"></a><br><a href="https://imgse.com/i/ppZkRDs"><img src="https://s1.ax1x.com/2023/03/06/ppZkRDs.jpg" alt="ppZkRDs.jpg"></a><blockquote><p>答案同上。部署线上后才会生效</p></blockquote></li><li>修改配置后启动博客预览没生效<blockquote><p>hexo的命令都可以简化，例如<code>hexo server</code>,可以直接<code>hexo s</code>;<code>hexo generate</code>,可以直接写成<code>hexo g</code>等等。于是我自作聪明使用<code>hexo c</code>清理缓存，导致并没有清理缓存，修改不生效，而我并没有意识到自己的命令错误。清理缓存的正确命令是<code>hexo clean</code>,简写<code>hexo cl</code>。</p></blockquote></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 个人博客搭建 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>这又是一篇测试文章“</title>
       <link href="/2023/03/05/%E8%BF%99%E5%8F%88%E6%98%AF%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%E2%80%9C/"/>
       <url>/2023/03/05/%E8%BF%99%E5%8F%88%E6%98%AF%E4%B8%80%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0%E2%80%9C/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>有点意思</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul><li><input checked="" disabled="" type="checkbox"> 喝水</li><li><input disabled="" type="checkbox"> 吃饭</li><li><input checked="" disabled="" type="checkbox"> 睡觉</li></ul><p>我和我的小伙伴们都笑了。:smile:</p><table><thead><tr><th>def</th><th>efwe</th><th>dfefe</th></tr></thead><tbody><tr><td>cedcs</td><td>csdcvsd</td><td>verw<br>ver</td></tr></tbody></table>]]></content>
       
       
       
@@ -46,13 +67,31 @@
     
     
     <entry>
-      <title>测试文章置顶功能</title>
-      <link href="/2023/03/05/%E6%B5%8B%E8%AF%95%E7%BD%AE%E9%A1%B6/"/>
-      <url>/2023/03/05/%E6%B5%8B%E8%AF%95%E7%BD%AE%E9%A1%B6/</url>
+      <title>Hexo博客安装和启动</title>
+      <link href="/2023/03/05/Hexo%E5%AE%89%E8%A3%85%E5%92%8C%E5%90%AF%E5%8A%A8/"/>
+      <url>/2023/03/05/Hexo%E5%AE%89%E8%A3%85%E5%92%8C%E5%90%AF%E5%8A%A8/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>如果某篇文章需要置顶，需要在顶部添加<em><strong>swiper_index: 1</strong></em><br><br>数字越大越靠前置顶</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><h2 id="下载nodejs"><a href="#下载nodejs" class="headerlink" title="下载nodejs"></a>下载nodejs</h2><p><a href="https://nodejs.org/en/">点击进入nodejs官网</a><br><a href="https://imgse.com/i/ppZefht"><img src="https://s1.ax1x.com/2023/03/06/ppZefht.md.jpg" alt="ppZefht.md.jpg"></a><br>下载后按照提示按照即可，几乎都是下一步下一步</p><h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p>关于git下载安装及教程详见<a href="%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E8%BD%AF%E4%BB%B6GIT%E7%9A%84%E4%BD%BF%E7%94%A8.md">版本控制软件GIT的使用</a></p><h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><p>以上两个软件下载安装后开始安装Hexo<br>安装命令：<code>npm install -g hexo-cli</code><br>打开Git Bash终端工具，cd到你想创建Hexo博客的路径下，执行命令<code>hexo init myBlog</code>。这里的<code>MyBlog</code>是自定义的项目文件夹。事先创建好了项目文件目录，可以直接<code>hexo init</code>初始化<br><a href="https://imgse.com/i/ppZuojK"><img src="https://s1.ax1x.com/2023/03/06/ppZuojK.jpg" alt="ppZuojK.jpg"></a></p><h2 id="认识目录"><a href="#认识目录" class="headerlink" title="认识目录"></a>认识目录</h2><p><a href="https://imgse.com/i/ppZuONd"><img src="https://s1.ax1x.com/2023/03/06/ppZuONd.jpg" alt="ppZuONd.jpg"></a><br>这里有三个重要目录：</p><ol><li>_posts：发表的文章都存放在这个目录下</li><li>_config.yml：站点的配置文件</li><li>themes：下载的主题都存放在这个目录下</li></ol><h1 id="本地启动Hexo"><a href="#本地启动Hexo" class="headerlink" title="本地启动Hexo"></a>本地启动Hexo</h1><p>执行命令<code>hexo server</code>,简化命令<code>hexo s</code><br><a href="https://imgse.com/i/ppZKZ3q"><img src="https://s1.ax1x.com/2023/03/06/ppZKZ3q.jpg" alt="ppZKZ3q.jpg"></a><br>浏览器中打开<code>http://localhost:4000/</code>预览博客<br><a href="https://imgse.com/i/ppZKMbF"><img src="https://s1.ax1x.com/2023/03/06/ppZKMbF.md.jpg" alt="ppZKMbF.md.jpg"></a><br>当你看到这个默认主题的博客界面时，恭喜你，本地搭建成功了！</p>]]></content>
       
       
+      <categories>
+          
+          <category> Hexo博客搭建笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 个人博客 </tag>
+            
+            <tag> nodejs </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
       
     </entry>
     
@@ -305,31 +344,6 @@
     
     
     <entry>
-      <title>模块</title>
-      <link href="/2021/02/14/%E6%A8%A1%E5%9D%97/"/>
-      <url>/2021/02/14/%E6%A8%A1%E5%9D%97/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h6 id="自定义模块和导入导出"><a href="#自定义模块和导入导出" class="headerlink" title="自定义模块和导入导出"></a>自定义模块和导入导出</h6><p>导出模块</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">sum</span>(<span class="params">a,b</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> a + b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span>.<span class="property">sum</span> = sum;</span><br><span class="line"><span class="comment">// console.log(module.exports);</span></span><br></pre></td></tr></table></figure><p>引用模块</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> p = <span class="built_in">require</span>(<span class="string">&#x27;./pretty.js&#x27;</span>);</span><br><span class="line"><span class="comment">// console.log(p)</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(p.<span class="title function_">sum</span>(<span class="number">1</span>,<span class="number">2</span>))</span><br></pre></td></tr></table></figure><p>加载js文件后缀可以省略，会从.js、.json、.node顺序依次加载</p><h6 id="引入内置模块"><a href="#引入内置模块" class="headerlink" title="引入内置模块"></a>引入内置模块</h6><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> node基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 模块 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>查询字符串&amp;模板字符串</title>
       <link href="/2021/02/14/%E6%9F%A5%E8%AF%A2%E5%AD%97%E7%AC%A6%E4%B8%B2&amp;%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2&amp;%E5%A4%9A%E8%A1%8C%E6%96%87%E6%9C%AC/"/>
       <url>/2021/02/14/%E6%9F%A5%E8%AF%A2%E5%AD%97%E7%AC%A6%E4%B8%B2&amp;%E6%A8%A1%E6%9D%BF%E5%AD%97%E7%AC%A6%E4%B8%B2&amp;%E5%A4%9A%E8%A1%8C%E6%96%87%E6%9C%AC/</url>
@@ -347,6 +361,31 @@
         <tags>
             
             <tag> 字符串 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>模块</title>
+      <link href="/2021/02/14/%E6%A8%A1%E5%9D%97/"/>
+      <url>/2021/02/14/%E6%A8%A1%E5%9D%97/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h6 id="自定义模块和导入导出"><a href="#自定义模块和导入导出" class="headerlink" title="自定义模块和导入导出"></a>自定义模块和导入导出</h6><p>导出模块</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">sum</span>(<span class="params">a,b</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> a + b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span>.<span class="property">sum</span> = sum;</span><br><span class="line"><span class="comment">// console.log(module.exports);</span></span><br></pre></td></tr></table></figure><p>引用模块</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> p = <span class="built_in">require</span>(<span class="string">&#x27;./pretty.js&#x27;</span>);</span><br><span class="line"><span class="comment">// console.log(p)</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(p.<span class="title function_">sum</span>(<span class="number">1</span>,<span class="number">2</span>))</span><br></pre></td></tr></table></figure><p>加载js文件后缀可以省略，会从.js、.json、.node顺序依次加载</p><h6 id="引入内置模块"><a href="#引入内置模块" class="headerlink" title="引入内置模块"></a>引入内置模块</h6><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> node基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 模块 </tag>
             
         </tags>
       
@@ -383,6 +422,72 @@
     
     
     <entry>
+      <title>海贼王</title>
+      <link href="/Gallery/haizeiwang.html"/>
+      <url>/Gallery/haizeiwang.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://images4.alphacoders.com/616/616945.png","alt":""},{"url":"https://images7.alphacoders.com/402/402897.jpg","alt":""},{"url":"https://images3.alphacoders.com/174/174965.jpg","alt":""},{"url":"https://images5.alphacoders.com/605/605588.jpg","alt":""},{"url":"https://images6.alphacoders.com/606/606664.png","alt":""},{"url":"https://pic.netbian.com/uploads/allimg/211108/000010-1636300810110b.jpg","alt":""},{"url":"https://pic.netbian.com/uploads/allimg/170819/161724-150313064436fd.jpg","alt":""},{"url":"https://images7.alphacoders.com/652/652552.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>漫威</title>
+      <link href="/Gallery/marvel.html"/>
+      <url>/Gallery/marvel.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://pic.netbian.com/uploads/allimg/220608/225113-1654699873cabb.jpg","alt":""},{"url":"https://pic.netbian.com/uploads/allimg/220914/230732-16631680520918.jpg","alt":""},{"url":"https://pic.netbian.com/uploads/allimg/190518/132527-1558157127e230.jpg","alt":""},{"url":"https://pic.netbian.com/uploads/allimg/190816/085939-15659171790acd.jpg","alt":""},{"url":"https://image.photocnc.com/aoaodcom/2019-12/15/20191215084452c5ac74d9552e5cc2db5fbdb5b94658f9.jpg.h700.webp","alt":""},{"url":"https://image.photocnc.com/aoaodcom/2022-01/04/2022010412282509be123faecf0949485c32deab8bfe5f.jpg.h700.webp","alt":""},{"url":"https://image.photocnc.com/aoaodcom/2022-03/11/20220311113711c2caf8ffede168fdc8cb5e961c556edb.jpg.h700.webp","alt":""},{"url":"https://image.photocnc.com/aoaodcom/2020-09/23/202009230957490f03fe29102b2153a435ab3cce63e9d1.jpg.h700.webp","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>美女</title>
+      <link href="/Gallery/meinv.html"/>
+      <url>/Gallery/meinv.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://images4.alphacoders.com/742/74258.jpg","alt":""},{"url":"https://images.alphacoders.com/152/152021.jpg","alt":""},{"url":"https://images.alphacoders.com/152/152091.jpg","alt":""},{"url":"https://images.alphacoders.com/154/154403.jpg","alt":""},{"url":"https://images4.alphacoders.com/154/154404.jpg","alt":""},{"url":"https://images4.alphacoders.com/167/167234.jpg","alt":""},{"url":"https://images4.alphacoders.com/175/175016.jpg","alt":""},{"url":"https://images.alphacoders.com/187/187183.jpg","alt":""},{"url":"https://images4.alphacoders.com/197/197516.jpg","alt":""},{"url":"https://images4.alphacoders.com/203/203014.jpg","alt":""},{"url":"https://images.alphacoders.com/208/208661.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2016/11/14/04/54/woman-1822646_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2017/12/30/13/25/portrait-3050076_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2016/11/14/03/43/kimono-1822520_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2016/11/14/04/25/umbrella-1822586_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2016/11/14/03/44/girls-1822521_960_720.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>美女</title>
+      <link href="/Gallery/mengchong.html"/>
+      <url>/Gallery/mengchong.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://cdn.pixabay.com/photo/2023/02/02/13/27/cat-7762887_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2021/10/01/18/53/corgi-6673343_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2023/01/23/15/02/beaver-rat-7738914_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2023/01/12/07/19/rat-7713508_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2017/08/05/22/29/gorilla-2586193_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2023/01/08/21/05/squirrel-7706132_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2022/01/18/07/36/cat-6946498_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2019/07/23/13/51/shepherd-dog-4357790_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2016/11/01/23/41/massage-1790063_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2018/07/22/20/02/horse-3555391_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2017/08/16/18/35/pug-2648774_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2016/04/16/00/05/piglet-1332259_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2017/06/25/13/21/crazy-goats-2440802_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2017/06/08/16/39/kangaroo-2384072_960_720.jpg","alt":""},{"url":"https://cdn.pixabay.com/photo/2016/03/27/19/13/scared-1283751_960_720.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>靓女</title>
+      <link href="/Gallery/ohmygirl.html"/>
+      <url>/Gallery/ohmygirl.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>壁纸</title>
+      <link href="/Gallery/wallpaper.html"/>
+      <url>/Gallery/wallpaper.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://i.loli.net/2019/12/25/Fze9jchtnyJXMHN.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/ryLVePaqkYm4TEK.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/gEy5Zc1Ai6VuO4N.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/d6QHbytlSYO4FBG.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/6nepIJ1xTgufatZ.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/E7Jvr4eIPwUNmzq.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/mh19anwBSWIkGlH.jpg","alt":""},{"url":"https://i.loli.net/2019/12/25/2tu9JC8ewpBFagv.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -405,28 +510,6 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>听听音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!-- 进阶示例 -->    <div id="aplayer-RBdOocZu" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="332064694" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>友链</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -438,11 +521,55 @@
     
     
     <entry>
+      <title>博主的网盘分享</title>
+      <link href="/learn/index.html"/>
+      <url>/learn/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="编程开发"><a href="#编程开发" class="headerlink" title="编程开发"></a>编程开发</h1><div class="tabs" id="资源下载"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#资源下载-1">编程入门</button></li><li class="tab"><button type="button" data-href="#资源下载-2">前端开发</button></li><li class="tab"><button type="button" data-href="#资源下载-3">python爬虫</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="资源下载-1"><p><a href="https://www.aliyundrive.com/s/en6KkN7ALbm">Python小白也能听懂的入门课</a><br><a href="https://www.aliyundrive.com/s/4wTrp9X45H4">Go语言核心36讲</a><br><a href="https://www.aliyundrive.com/s/kVTnLXvA4GY">开课吧全套编程教程（180G）</a></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="资源下载-2"><p><a href="https://pan.quark.cn/s/4407bbdf68f9">极客学院全套ⅥP视频(AS版)</a><br><a href="https://caiyun.139.com/m/i?175CdCmqIgTdW">江哥带你玩转VUE3</a>    提取码：GeWD<br><a href="https://www.aliyundrive.com/s/Hqi2o4CtEC2">前端全链路性能优化实战</a></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="资源下载-3"><p><a href="https://www.aliyundrive.com/s/vs6hyP1eewC">畅销3年的Python分布式爬虫课程全套</a><br><a href="https://caiyun.139.com/m/i?175CkcQ3jWm79">python一百天参考书籍</a><br><a href="https://pan.baidu.com/s/1-ycO7zJxK1h96l6MxdAUAA?pwd=meit">崔庆才_Python3爬虫入门到精通课程视频 34课</a>   提取码：meit</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>听听音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!-- 进阶示例 -->    <div id="aplayer-xxheRAmF" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="332064694" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="340px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>博主的网盘分享</title>
+      <link href="/mv/index.html"/>
+      <url>/mv/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="国外电影"><a href="#国外电影" class="headerlink" title="国外电影"></a>国外电影</h1><div class="tabs" id="资源下载"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#资源下载-1">恐怖惊悚</button></li><li class="tab"><button type="button" data-href="#资源下载-2">枪战动作</button></li><li class="tab"><button type="button" data-href="#资源下载-3">脑洞科幻</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="资源下载-1"><p><a href="https://pan.quark.cn/s/36732ea23452#/list/share">梅根.2022.1080p.mp4</a><br><a href="https://pan.quark.cn/s/8dbca506f2c6#/list/share">小丑回魂2.mp4 附带中文外挂字幕</a><br><a href="https://pan.quark.cn/s/6e35ac9391c3#/list/share">致命弯道全7部</a></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="资源下载-2"><p><a href="https://pan.quark.cn/s/b8b6897337ba#/list/share">疾速备战.mkv</a><br><a href="https://pan.quark.cn/s/80ce012a2798">地狱犬. 2022</a><br><a href="https://pan.quark.cn/s/e52a37ca9ccd">意外杀手2：杀手假期 Accident Man 2 (2022) 两部合集</a></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="资源下载-3"><p><a href="https://pan.quark.cn/s/c3c977ee3fc8">喋血战士</a><br><a href="https://pan.quark.cn/s/92797c3ed922">暗夜博士：莫比乌斯（2022）漫威</a></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>壁纸</title>
+      <link href="/wallpaper/index.html"/>
+      <url>/wallpaper/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>关于漫威的图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">OH MY GIRL</div>  <p>关于OH MY GIRL的图片</p>  <a href='/Gallery/ohmygirl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://images5.alphacoders.com/606/606284.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">One Piece</div>  <p>关于海贼王的图片</p>  <a href='/Gallery/haizeiwang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://images5.alphacoders.com/315/315646.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">美女</div>  <p>各种美女图片</p>  <a href='/Gallery/meinv'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn.pixabay.com/photo/2023/02/07/13/39/monkey-7774171_960_720.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">萌宠</div>  <p>欣赏萌萌哒的小动物</p>  <a href='/Gallery/mengchong'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
